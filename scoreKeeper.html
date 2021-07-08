@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Score Keeper</title>
+   <link rel="stylesheet" href="scoreKeeper.css">
+</head>
+<body>
+   <div id="container">
+      <img id="img" src="https://nwscdn.com/media/wysiwyg/3kf/Bat-and-ball-included-in-the-set.jpg" alt="">
+      <h4>Ping Pong Score Keeper</h4>
+      <hr>
+      <h1><span id="p1display">0</span> to <span id="p2display">0</span></h1>
+
+      
+      <p>Use the buttons to keep score.</p>
+      
+      <br>
+      
+      <div id="select">
+         <label for="playto"><b>Playing To:</b></label>
+         <select name="" id="playto">
+            <option value="3">3</option>
+            <option value="6">6</option>
+            <option value="11">11</option>
+            <option value="21">21</option>
+         </select>
+      </div>
+
+      <br>
+
+      <div id="buttons">
+         <button id="p1btn" class="btn">+1 Player One</button>
+         <button id="p2btn" class="btn">+1 Player Two</button>
+         <button id="reset" class="btn">Reset</button>
+      </div>
+   </div>
+
+   <div id="gif">
+      <!-- <img src="https://media1.tenor.com/images/e6883c6c0196f37478332b88a67f50af/tenor.gif?itemid=13023707" alt=""> -->
+
+      <img src="https://i.pinimg.com/originals/47/91/e7/4791e79bd845379bbbe5f4972cc10174.gif" alt="">
+
+      <img id="blue" src="blue.JPG" alt="">
+   </div>
+
+   <div id="dark"></div>
+
+
+   <script src="scoreKeeper.js"></script>
+</body>
+</html>
